@@ -1,26 +1,31 @@
-# Netflix Data Analysis
+# Netflix Data Analysis & Classification
 
-## 🚀 Objective
-Classify Netflix content types and analyze trends using EDA and ML.
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![Classification](https://img.shields.io/badge/ML-Logistic%20Regression-brightgreen)
 
-## 📊 Dataset
-- 1,861 records
-- Features: release year, genre count, rating, title length, etc.
+## Objective
+Analyze Netflix content trends and classify content using machine learning techniques.
 
-## 🧠 Approach
-- Cleaned & engineered features
-- Logistic Regression (70–30 split)
+## Dataset
+- 1,861 Netflix content records
+- Features include release year, genre count, rating, title length, and country
 
-## 📈 Results
+## Approach
+- Data cleaning and feature engineering
+- Exploratory data analysis (EDA)
+- Logistic Regression classification (70–30 split)
+
+## Results
 - Classification Accuracy: 71%
-- Precision/Recall reported
+- Evaluated model using precision, recall, and F1-score
 
-## 📝 Insights
-- Genre counts influence type classification
-- Temporal patterns in content release
+## Key Insights
+- Genre count and release year significantly influence classification
+- Clear temporal trends in Netflix content releases
 
-## 🛠 Tools
-Python, Pandas, Scikit-Learn
+## Tools Used
+Python, Pandas, Scikit-Learn, Matplotlib
 
-## 📍 Run Instructions
-Open `Netflix Data Analysis.ipynb`
+## How to Run
+1. Open `Netflix Data Analysis.ipynb`
+2. Run all cells to view analysis and results
